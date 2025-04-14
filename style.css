@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    width: 100%;
+    height: 18vh;
+    background-color: #7c3e15;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mogra", system-ui;
+    font-size: xx-large;
+}
+
+header>i {
+    font-size: x-large;
+    margin: 15px;
+}
+
+.main-block {
+    width: 100%;
+    height: 82vh;
+    /* background-color: blue; */
+    display: flex
+}
+
+.left-block {
+    height: 100%;
+    width: 20%;
+    /* background-color: #ade8f4; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e6ccb2;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    background-color: #b87136;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: capitalize;
+    transition: all 500ms;
+}
+
+button:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.right-block {
+    height: 100%;
+    width: 80%;
+    background-color: #ede0d4
+}
+
+.top-div {
+    width: 100%;
+    height: 15%;
+    /* background-color:black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+
+.top-div>ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-div {
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.bottom-div>#headlines {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#headlines>div {
+    width: 30%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    margin: 10px 0px 0px 10px;
+    background-size: 100%;
+}
+
+.sub-cat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-cat>div {
+    width: 80%;
+    height: 400px;
+    box-shadow: 0px 0px 5px 2px #6f1d1b;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sub-cat>div>img {
+    width: 300px;
+    height: 200px;
+}
+
+.sub-cat h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-cat h4 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sub-cat p {
+    font-size: 10px;
+}
+
+.sub-cat button {
+    width: 200px;
+}
